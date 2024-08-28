@@ -168,7 +168,7 @@ import {
             company_name: "DinningSix",
             //icon: ,
             iconBg: "#df256c",
-            date: "Jan 2023",
+            date: "Oct 2023",
             points: [
               "Prepare high-quality, artfully presented dishes with precision.",
               "Oversee plating and presentation, ensuring every dish meets visual and taste expectations.",

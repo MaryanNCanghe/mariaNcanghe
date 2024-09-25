@@ -7,6 +7,16 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+import jefynho from "./jefynho.png";
+import keyline from "./keyline.png";
+import barber from "./barber.png";
+import macrolab from "./macrolab.png";
+import lart from "./lart.png";
+import car from "/Users/mariancanha/Desktop/develops/portfolio/src/assets/car.png";
+import traveller from "/Users/mariancanha/Desktop/develops/portfolio/src/assets/traveller.png";
+import iicaros from "/Users/mariancanha/Desktop/develops/portfolio/src/assets/iicaros.png";
+import shirt from "/src/assets/shirt.png"
+
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -21,16 +31,16 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
-
 export {
+  shirt,
+  iicaros,
+  car,
+  traveller,
+  jefynho,
+  lart,
+  barber,
+  keyline,
+  macrolab,
   logo,
   backend,
   creator,
@@ -52,11 +62,5 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+ 
 };

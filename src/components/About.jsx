@@ -44,10 +44,10 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] mx-auto"
+        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] mx-auto align-start justify-start"
       >
-       A dedicated and versatile Administrative Science student with a passion for technology and designs. Violinist, Fluent in five languages
-       and experienced in various industries including retail, hospitality, and administrative support. Designing graphics for social media platforms to promote products, events, or campaigns.
+       A dedicated and versatile Administrative Science student with a passion for technology, Art and designs. Fluent in five languages
+       and experienced in various industries including, web develop, 3D interfaces, Designs and administrative support. 
        Seeking a challenging role that combines my diverse skills in administration, and thecnology to contribute effectively to a dynamic team. Let's work together!
       </motion.p>
 

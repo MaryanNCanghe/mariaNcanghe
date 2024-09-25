@@ -15,14 +15,14 @@ const Ball = (props) => {
 
   return (
     <Float speed={1.75} rotationIntensity={1} floatIntensity={2}>
-      <ambientLight intensity={0.25} />
-      <directionalLight position={[0, 0, 0.05]} />
+      <ambientLight intensity={0.20} />
+      <directionalLight position={[0, 0, 0.01]} />
       <mesh castShadow receiveShadow scale={2.75}>
-        <icosahedronGeometry args={[1, 1]} />
+        <icosahedronGeometry args={[1, 10]} />
         <meshStandardMaterial
-          color='#fff8eb'
+          color='#fcdce5'
           polygonOffset
-          polygonOffsetFactor={-5}
+          polygonOffsetFactor={-10}
           flatShading
         />
         <Decal

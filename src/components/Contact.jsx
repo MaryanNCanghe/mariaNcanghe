@@ -37,9 +37,9 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Maria",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "mariadufna@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
@@ -80,8 +80,8 @@ const Contact = () => {
           onSubmit={handleSubmit}
           className='mt-12 flex flex-col gap-8 bg-green-gradient' 
         >
-          <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Your Name</span>
+          <label className='flex flex-col'  htmlFor='name'>
+            <span className='text-white font-medium mb-4 '>Your Name</span>
             <input
               type='text'
               name='name'
@@ -91,7 +91,7 @@ const Contact = () => {
               className='bg-gradient-to-r from-pink-300 to-pink-700 py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
-          <label className='flex flex-col'>
+          <label className='flex flex-col'htmlFor='email'>
             <span className='text-white font-medium mb-4'>Your email</span>
             <input
               type='email'
@@ -102,7 +102,7 @@ const Contact = () => {
               className='bg-gradient-to-r from-pink-700 to-pink-300 py-4 px-6 placeholder:text-black-gradient text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
-          <label className='flex flex-col'>
+          <label className='flex flex-col' htmlFor='message'>
             <span className='text-white font-medium mb-4'>Your Message</span>
             <textarea
               rows={7}

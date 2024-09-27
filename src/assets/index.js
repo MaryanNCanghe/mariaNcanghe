@@ -12,7 +12,7 @@ import keyline from "./keyline.png";
 import barber from "./barber.png";
 import macrolab from "./macrolab.png";
 import lart from "./lart.png";
-import car from "/Users/mariancanha/Desktop/develops/portfolio/src/assets/car.png";
+import car from './car.png'; 
 import traveller from "/Users/mariancanha/Desktop/develops/portfolio/src/assets/traveller.png";
 import iicaros from "/Users/mariancanha/Desktop/develops/portfolio/src/assets/iicaros.png";
 import shirt from "/src/assets/shirt.png"

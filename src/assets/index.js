@@ -13,9 +13,9 @@ import barber from "./barber.png";
 import macrolab from "./macrolab.png";
 import lart from "./lart.png";
 import car from './car.png'; 
-import traveller from "/Users/mariancanha/Desktop/develops/portfolio/src/assets/traveller.png";
-import iicaros from "/Users/mariancanha/Desktop/develops/portfolio/src/assets/iicaros.png";
-import shirt from "/src/assets/shirt.png"
+import traveller from "./traveller.png";
+import iicaros from "./iicaros.png";
+import shirt from "./shirt.png"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
